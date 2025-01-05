@@ -1,0 +1,54 @@
+# Next-Word Prediction Using LSTM
+
+## Description
+This project implements a next-word prediction system using Long Short-Term Memory (LSTM) neural networks. It processes raw text data from classic literature to train a language model that predicts the next word in a sequence. The project showcases the power of LSTM in handling sequential data and understanding context to generate meaningful word predictions.
+
+The model is implemented in Python using Jupyter Notebook and integrated with a dataset from *Pride and Prejudice* by Jane Austen. The system aims to provide an interactive tool for users to explore predictive text generation.
+
+## Features
+- Processes raw text data to create a predictive language model.
+- Trains the LSTM model using a clean text dataset.
+- Provides predictions for the next word in a sequence.
+- Demonstrates a practical application of Natural Language Processing (NLP).
+
+---
+
+## Instructions to Run the Code
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/jyothi-279/NextWordPredictionML.git
+2. **Navigate to the project directory**
+   ```bash
+   cd NextWordPredictionML
+3. **Open the Jupyter Notebook**
+   ```bash
+   jupyter notebook
+4. **Run the notebook files**
+   Next_Word_Prediction.ipynb: For training the model and saving it.
+
+Dependencies
+Ensure you have the following libraries installed:
+
+Python (>=3.7)
+Jupyter Notebook
+TensorFlow (>=2.x)
+NumPy
+pandas
+matplotlib
+scikit-learn
+
+To install all dependencies, run:
+```bash
+pip install -r requirements.txt
+
+Example Output
+Here’s an example prediction from the model: Enter a word or sentence to predict the next word: The weather today is very
+The predicted next word for The weather today is very is: beautiful
+
+Dataset Source
+The training dataset used in this project is based on the text from "Pride and Prejudice" by Jane Austen, which is publicly available. The dataset has been preprocessed and saved as pride_and_prejudice.txt for model training.
+
+
+
+
